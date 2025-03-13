@@ -1,0 +1,30 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #b0c4de; /* Um cinza-azulado claro, remetendo a gelo */
+  --ifm-color-primary-dark: #9ab0d1; /* Tom mais escuro para contraste */
+  --ifm-color-primary-darker: #859bc4; /* Escurecendo gradualmente */
+  --ifm-color-primary-darkest: #6b82a8; /* Tom mais profundo para profundidade */
+  --ifm-color-primary-light: #c6d4e8; /* Mais claro, quase branco gelado */
+  --ifm-color-primary-lighter: #d6e0f0; /* Ainda mais leve */
+  --ifm-color-primary-lightest: #e6edf7; /* Quase um branco nevado */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #87ceeb; /* Azul céu claro, com vibe invernal */
+  --ifm-color-primary-dark: #70c4e3; /* Um pouco mais escuro */
+  --ifm-color-primary-darker: #59b9db; /* Mantendo a frieza */
+  --ifm-color-primary-darkest: #3fa0c2; /* Tom mais profundo */
+  --ifm-color-primary-light: #9ed6f0; /* Mais claro para contraste */
+  --ifm-color-primary-lighter: #b5dff5; /* Suave e gelado */
+  --ifm-color-primary-lightest: #cce9fa; /* Quase um branco azulado */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
