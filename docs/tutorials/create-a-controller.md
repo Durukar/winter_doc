@@ -22,8 +22,8 @@ Create a file at `src/GreetingsController.ts`:
 class GreetingsController {
 
   @GetMapping()
-  hello() {
-    return 'Hello, is so Cold!!❄️❄️'
+  hello(w: Context) {
+    return w.text('Hello, is so Cold!!❄️❄️')
   }
 }
 ```
